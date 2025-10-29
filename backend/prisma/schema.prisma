@@ -1,0 +1,35 @@
+// Prisma schema for SQLite
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Product {
+  id        Int       @id @default(autoincrement())
+  name      String
+  price     Float
+  image     String?
+  createdAt DateTime  @default(now())
+  cartItems CartItem[]
+}
+
+model CartItem {
+  id        Int      @id @default(autoincrement())
+  product   Product  @relation(fields: [productId], references: [id])
+  productId Int
+  qty       Int
+  createdAt DateTime @default(now())
+}
+
+model Receipt {
+  id            Int      @id @default(autoincrement())
+  total         Float
+  items         String   // JSON string of items
+  customerName  String?
+  customerEmail String?
+  createdAt     DateTime @default(now())
+}
