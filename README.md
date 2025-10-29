@@ -100,10 +100,11 @@ node prisma/seed.js
 ```
 
 ### Screenshots
-![Products](https://github.com/arsjadoun25/Mock-E-commerce-Cart/blob/main/screenshots/Cart%20Item%20Added.png)
-![Cart](screenshots/Cart.png)
-![Checkout summary](screenshots/Checkout%20Summary.png)
-![Receipt](screenshots/Receipt.png)
+![Cart Item Added](https://raw.githubusercontent.com/arsjadoun25/Mock-E-commerce-Cart/main/screenshots/Cart%20Item%20Added.png)
+![Cart](https://raw.githubusercontent.com/arsjadoun25/Mock-E-commerce-Cart/main/screenshots/Cart.png)
+![Checkout Summary](https://raw.githubusercontent.com/arsjadoun25/Mock-E-commerce-Cart/main/screenshots/Checkout%20Summary.png)
+![Receipt](https://raw.githubusercontent.com/arsjadoun25/Mock-E-commerce-Cart/main/screenshots/Receipt.png)
+
 
 ### Demo video (hosted externally)
 Watch the demo on YouTube: https://youtu.be/your-video-id
