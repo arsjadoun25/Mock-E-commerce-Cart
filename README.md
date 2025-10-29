@@ -107,7 +107,7 @@ node prisma/seed.js
 
 
 ### Demo video (hosted externally)
-Watch the demo on YouTube: https://youtu.be/your-video-id
+Watch the demo on YouTube: https://youtu.be/tF-lOmVmTMg
 
 ## Contact
 Built by `arsjadoun25`
