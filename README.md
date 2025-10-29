@@ -100,7 +100,7 @@ node prisma/seed.js
 ```
 
 ### Screenshots
-![Products](screenshots/Product%20Page.png)
+![Products](https://github.com/arsjadoun25/Mock-E-commerce-Cart/blob/main/screenshots/Cart%20Item%20Added.png)
 ![Cart](screenshots/Cart.png)
 ![Checkout summary](screenshots/Checkout%20Summary.png)
 ![Receipt](screenshots/Receipt.png)
